@@ -32,7 +32,7 @@ async def on_member_join(member):
     except:
         print("Couldn't message " + member.name)
 
-# --------------------------------
+# ---------------------------------
 #aguardar o comando de turma para fazer a troca de papel (segunda, terca, etc...)
 
     role = discord.utils.get(member.server.roles, name="name-of-your-role") #  Gets the member role as a `role` object
